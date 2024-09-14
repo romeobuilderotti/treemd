@@ -1,5 +1,5 @@
 {
-  "name": "treemd",
+  "name": "treemd-js",
   "version": "1.0.0",
   "description": "A CLI app for generating a markdown tree of a directory",
   "main": "index.js",

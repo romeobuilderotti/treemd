@@ -1,4 +1,4 @@
-# treemd
+# treemd-js
 
 `treemd` is a command-line tool that assembles multiple files from your project into a single context, primarily designed for use with Large Language Models (LLMs). It generates a markdown representation of your directory structure and file contents, making it easy to provide comprehensive project context to AI models.
 
@@ -15,13 +15,13 @@
 To install `treemd` globally, run:
 
 ```bash
-npm install -g treemd
+npm install -g treemd-js
 ```
 
 Or use `npx` to run it without installing:
 
 ```bash
-npx treemd
+npx treemd-js
 ```
 
 ## Usage
