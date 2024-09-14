@@ -5,10 +5,10 @@
 ## Features
 
 - Generate an ASCII tree representation of directory structure
-- Include file contents in the output
-- Respect `.gitignore` rules
-- Filter files by extension
-- Estimate token count for LLM context sizing
+- Includes file contents in the output
+- Respects `.gitignore` rules
+- Filters files by extension
+- Estimates token count for LLM context sizing
 
 ## Installation
 
@@ -16,6 +16,12 @@ To install `treemd` globally, run:
 
 ```bash
 npm install -g treemd
+```
+
+Or use `npx` to run it without installing:
+
+```bash
+npx treemd
 ```
 
 ## Usage
@@ -90,7 +96,7 @@ assert.equal(add(2, 2), 4);
 ```
 
 **README.md:**
-```markdown
+```
 # My Project
 This is a sample project.
 ```
